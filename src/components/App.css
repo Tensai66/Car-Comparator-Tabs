@@ -1,0 +1,39 @@
+/***************************************************************************
+ Name: Mayur Khatri, mayur_khatri@student.cs.uml.edu
+ Computer Science Student, UMass Lowell
+ Comp.4610, GUI Programming I
+ File: /usr/cs/2018/mkhatri/public_html/461f2017/hw6/App.js
+ Created: 03-dec-2017
+ Last updated by HL: 03-dec-2017, 20:00
+ Description: JSX single-page app with error checking using React Javascript 
+              Validation for the dynamic car comparator with table
+              (Since React has a virtual DOM, that then modifies the real DOM)
+              Also includes tabs which has tables and sliders which dynamically
+              update the values in the input boxes and remove/remove all for
+              the tabs which contain the tables.
+****************************************************************************/
+
+.input-range {
+  width: 25%;
+}
+
+.input-range__label-container {
+  color: rgb(0, 0, 0);
+}
+
+.input-range__slider {
+  background: #fff;
+  border-color: rgb(163, 163, 163);
+}
+
+.input-range__track {
+  background: rgb(245, 245, 245);
+}
+
+.input-range__track--active {
+  background: rgb(163, 163, 163);
+}
+
+.input-range__label--value {
+  display: none;
+}
